@@ -1,0 +1,16 @@
+body{
+    animation: smooth 10s infinite;
+    color: black;
+}
+h1{
+    color: blue;
+}
+
+@keyframes smooth{
+    0%{
+        background-color: aqua;}
+    50%{
+        background-color: aquamarine;}
+    100%{
+        background-color: aqua;}
+}
